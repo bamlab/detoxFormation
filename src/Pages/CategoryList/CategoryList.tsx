@@ -34,7 +34,7 @@ export const CategoryList: FunctionComponent = () => {
   }, []);
 
   return (
-    <ScrollView>
+    <ScrollView testID="scroll-view">
       <Text style={styles.title}>The Meal App</Text>
       {isLoading ? (
         <Text>Loading...</Text>
