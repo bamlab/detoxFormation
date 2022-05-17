@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Box renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "red",
+      "height": 100,
+      "justifyContent": "center",
+      "width": 100,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "green",
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello
+  </Text>
+</View>
+`;

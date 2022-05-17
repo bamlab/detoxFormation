@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Category renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "margin": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#FFF8",
+        "color": "black",
+        "fontSize": 20,
+        "marginLeft": 20,
+        "position": "absolute",
+        "zIndex": 1,
+      }
+    }
+  >
+    Category A
+  </Text>
+  <Image
+    source={
+      Object {
+        "uri": "Link to the category A image",
+      }
+    }
+    style={
+      Object {
+        "height": 75,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;

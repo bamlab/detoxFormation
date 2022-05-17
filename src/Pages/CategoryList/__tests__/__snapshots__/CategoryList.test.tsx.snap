@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Page] CategoryList renders correctly with an undefined/null response from the api 1`] = `
+<RCTScrollView
+  testID="scroll-view"
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontSize": 40,
+          "fontWeight": "bold",
+          "padding": 10,
+        }
+      }
+    >
+      The Meal App
+    </Text>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`[Page] CategoryList renders correctly with correct api data 1`] = `
+<RCTScrollView
+  testID="scroll-view"
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontSize": 40,
+          "fontWeight": "bold",
+          "padding": 10,
+        }
+      }
+    >
+      The Meal App
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Beef
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/beef.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Chicken
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/chicken.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Dessert
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/dessert.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Lamb
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/lamb.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Miscellaneous
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/miscellaneous.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Pasta
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/pasta.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Pork
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/pork.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Seafood
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/seafood.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Side
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/side.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Starter
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/starter.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Vegan
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/vegan.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Vegetarian
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/vegetarian.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Breakfast
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/breakfast.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Goat
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/goat.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`[Page] CategoryList renders correctly with some undefined value 1`] = `
+<RCTScrollView
+  testID="scroll-view"
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontSize": 40,
+          "fontWeight": "bold",
+          "padding": 10,
+        }
+      }
+    >
+      The Meal App
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "margin": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#FFF8",
+            "color": "black",
+            "fontSize": 20,
+            "marginLeft": 20,
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        Chicken
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "https://www.themealdb.com/images/category/chicken.png",
+          }
+        }
+        style={
+          Object {
+            "height": 75,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
