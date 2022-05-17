@@ -14,7 +14,7 @@ export const HomePage: FC = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Page</Text>
-      <Button onPress={goToProfile} title="Go to profile" />
+      <Button onPress={goToProfile} title="Go to profile" testID="profile-id" />
       <Button onPress={goToHelp} title="Go to help page" />
       <Button onPress={goToCount} title="Go to count page" />
       <Button onPress={goToFood} title="Go to Food page" />
