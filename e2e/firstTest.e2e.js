@@ -54,4 +54,10 @@ describe('Example', () => {
       .whileElement(by.id('scroll-view'))
       .scroll(150, 'down');
   });
+
+  it('navigates to Profile page from Other page', async () => {
+    await element(by.text('Go to profile')).tap();
+
+    await expect(element(by.text('Profile Page'))).toBeVisible();
+  });
 });

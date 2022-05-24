@@ -1,10 +1,11 @@
 import React, { FC } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { HomePage, ProfilePage, HelpButton, HelpPage, CountPage } from './src';
 import { Navigation, StackNavigatorParams } from './src/types';
 import { CategoryList } from './src/Pages/CategoryList/CategoryList';
 import { Text, View } from 'react-native';
+import { Button } from './src/Components/Button.component';
 
 const Stack = createStackNavigator<StackNavigatorParams>();
 
@@ -25,9 +26,13 @@ const NestedNavigator: FC = () => {
 };
 
 export const OtherPage: FC = () => {
+  const { navigate } = useNavigation<Navigation<'HOME'>>();
+  const goToProfile = () => navigate('PROFILE');
+
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Other Page</Text>
+      <Button onPress={goToProfile} title="Go to profile" />
     </View>
   );
 };
@@ -38,8 +43,8 @@ export const App: FC = () => {
   return (
     <NavigationContainer>
       <HigherStack.Navigator>
-        <HigherStack.Screen name="NESTED_APP" component={NestedNavigator} />
         <HigherStack.Screen name="OTHER" component={OtherPage} />
+        <HigherStack.Screen name="NESTED_APP" component={NestedNavigator} />
       </HigherStack.Navigator>
     </NavigationContainer>
   );
